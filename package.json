@@ -1,0 +1,31 @@
+{
+  "name": "user_authentication",
+  "version": "1.0.0",
+  "description": "Creating A user authentication using Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "lint": "npm run lint:css && npm run lint:js",
+    "lint:css": "sgmf-scripts --lint css",
+    "lint:js": "sgmf-scripts --lint js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfred-nsabo/user_authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godfred-nsabo/user_authentication/issues"
+  },
+  "homepage": "https://github.com/godfred-nsabo/user_authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

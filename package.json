@@ -4,7 +4,7 @@
   "description": "Creating A user authentication using Nodejs",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
+    "devStart": "nodemon addServer.js",
     "lint": "npm run lint:css && npm run lint:js",
     "lint:css": "sgmf-scripts --lint css",
     "lint:js": "sgmf-scripts --lint js",

@@ -1,0 +1,11 @@
+### GET REQUEST###
+GET http://localhost:3000/users
+
+### POST REQUEST####
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Godfred",
+    "password": "passkey"
+}
